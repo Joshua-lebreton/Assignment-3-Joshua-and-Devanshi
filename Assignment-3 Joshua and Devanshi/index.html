@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment-3| COMP1073 Client-Side JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+ 
+</head>
+
+<body>
+	<h1>Let's make a Smoothie!!!!</h1>
+	<section class="row"> 
+		<div class="col">
+			<h3>Choose your favourite Fruit!</h3>
+			<input type="radio" id="blueberry" name="Fruit" value="blueberry">
+			<label for="blueberry">Blueberry</label>
+			<br>
+			<input type="radio" id="Banana" name="Fruit" value="Banana">
+			<label for="Banana">Banana</label>
+			<br>
+			<input type="radio" id="Tropical_Mango" name="Fruit" value="Tropical Mango">
+			<label for="Tropical_Mango">Tropical Mango</label>
+			<br>
+			<input type="radio" id="Watermelon" name="Fruit" value="Watermelon">
+			<label for="Watermelon">Watermelon</label>
+			<br>
+			<input type="radio" id="Green_Pear" name="Fruit" value="Green Pear">
+			<label for="Green_Pear">Green Pear</label>
+			<br>
+			<input type="radio" id="Strawberry_Almond" name="Fruit" value="Strawberry Almond">
+			<label for="Strawberry_Almond">Strawberry Almond</label>
+			<br>
+		</div>
+
+		<div class="col">
+			<h3>Choose smoothie Base!!</h3>
+			<input type="radio" id="Plain_Greek_Yogurt" name="Base" value="Plain Greek Yogurt">
+			<label for="Plain_Greek_Yogurt">Plain Greek Yogurt</label>
+			<br>
+			<input type="radio" id="Flavoured_Greek_Yogurt" name="Base" value="Flavoured Greek Yogurt">
+			<label for="Flavoured_Greek_Yogurt">Flavoured Greek Yogurt</label>
+			<br>
+			<input type="radio" id="Avocado" name="Base" value="Avocado">
+			<label for="Avocado">Avocado</label>
+			<br>
+			<input type="radio" id="Cottage_Cheese" name="Base" value="Cottage Cheese">
+			<label for="Cottage_Cheese">Cottage Cheese</label>
+			<br>
+			<input type="radio" id="Kefir" name="Base" value="Kefir">
+			<label for="Kefir">Kefir</label>
+			<br>
+		</div>
+
+		<div class="col">
+			<h3>Liquids!!</h3>
+			<input type="radio" id="Orange_Juice" name="Liquid" value="Orange Juice">
+			<label for="Orange_Juice">Orange Juice</label>
+			<br>
+			<input type="radio" id="Cranberry_Juice" name="Liquid" value="Cranberry Juice">
+			<label for="Cranberry_Juice">Cranberry Juice</label>
+			<br>
+			<input type="radio" id="Pomegranate_Juice" name="Liquid" value="Pomegranate Juice">
+			<label for="Pomegranate_Juice">Pomegranate Juice</label>
+			<br>
+			<input type="radio" id="Coconut_Water" name="Liquid" value="Coconut Water">
+			<label for="Coconut_Water">Coconut Water</label>
+			<br>
+			<input type="radio" id="Milk" name="Liquid" value="Milk">
+			<label for="Milk">Milk</label>
+			<br>
+		</div>
+	</section> 
+		<section class="row"> 
+		<div class="col">
+			<h3>Select your favourite Sweetener.</h3>
+			<input type="radio" id="Sugar" name="Sweetener" value="Sugar">
+			<label for="Sugar">Sugar</label>
+			<br>
+			<input type="radio" id="Honey" name="Sweetener" value="Honey">
+			<label for="Honey">Honey</label>
+			<br>
+			<input type="radio" id="Agave" name="Sweetener" value="Agave">
+			<label for="Agave">Agave</label>
+			<br>
+		</div>
+
+		<div class="col">
+			<h3>Choose nut Butter!</h3>
+			<input type="radio" id="Peanut_Butter" name="Butter" value="Peanut Butter">
+			<label for="Peanut_Butter">Peanut Butter</label>
+			<br>
+			<input type="radio" id="Almond_Butter" name="Butter" value="Almond Butter">
+			<label for="Almond_Butter">Almond Butter</label>
+			<br>
+			<input type="radio" id="Sunflower_Butter" name="Butter" value="Sunflower Butter">
+			<label for="Sunflower_Butter">Sunflower Butter</label>
+			<br>
+			<input type="radio" id="Nutella" name="Butter" value="Nutella">
+			<label for="Nutella">Nutella</label>
+			<br>
+		</div>
+
+		<div class="col">
+			<h3>Other</h3>
+			<input type="radio" id="Chia_Seeds" name="Other" value="Chia Seeds">
+			<label for="Chia_Seeds">Chia Seeds</label>
+			<br>
+			<input type="radio" id="Sunflower_Seeds" name="Other" value="Sunflower Seeds">
+			<label for="Sunflower_Seeds">Sunflower Seeds</label>
+			<br>
+			<input type="radio" id="Cinnamon_powder" name="Other" value="Cinnamon powder">
+			<label for="Cinnamon_powder">Cinnamon powder</label>
+			<br>
+			<input type="radio" id="Vanilla_Extract" name="Other" value="Vanilla Extract">
+			<label for="Vanilla_Extract">Vanilla Extract</label>
+			<br>
+			<input type="radio" id="Oats" name="Other" value="Oats">
+			<label for="Oats">Oats</label>
+			<br>
+		</div>
+</section>
+
+		<button type="button" id="Order" onclick="displayRadioValue()">Submit</button>
+	
+
+	<div class="outputDiv"> 
+		<p id="result" >  </p>
+
+	</div>
+
+	<script src="js\script.js"></script>
+</body>
+</html>

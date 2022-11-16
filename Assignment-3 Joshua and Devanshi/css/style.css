@@ -1,0 +1,97 @@
+html{
+	
+	background-image: linear-gradient(180deg, #ff8888, #ff4d7a, #f7195c, #aa0041);
+	height: 100vh;
+}
+body {
+    font-family: 'Dancing Script', cursive;
+	text-shadow: rgb(0, 0, 0) 3px 3px 10px;
+	color:rgb(188, 200, 255);
+	height: auto;
+}
+section{
+	display: flex;
+}
+section div{
+	width: 33%;
+	border-radius: 30px;
+	background-color: #aa0055;
+	margin: 20px;
+	padding: 15px;
+	padding-left: 50px;
+	align-items: center;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 5px 5px 20px 10px, #000000 5px 5px 10px;
+}
+.outputDiv{
+	border-radius: 30px;
+	background-color: #aa0055;
+	margin: 20px;
+	padding: 10px;
+	height: auto;
+	padding-left: 50px;
+	align-items: center;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 5px 5px 20px 10px, #000000 5px 5px 10px;
+}
+.outputDiv p{
+	height: 140px;
+}
+p{
+	padding-left: 50px;
+}
+h1{
+	text-shadow: rgb(255, 100, 100) 3px 3px 10px;
+	color: #000;
+	padding: 0px;
+	margin: 20px;
+    text-align: center;
+}
+h3{
+    padding: 0px;
+	margin: 20px;
+	
+}
+button {
+	width: 50%;
+	background-color: rgb(253, 120, 120); /* Green */
+	border: none;
+	border-radius: 50px;
+	color: #000000;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 15px 10%;
+	margin:	5px 25%;
+	text-align: center;
+	font-size: 150%;
+	box-shadow: inset rgba(8, 8, 8, 0.5) 2px 2px 10px 2px,	rgba(65, 1, 49, 0.522) 5px 5px 10px 5px;
+	text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+
+input[type='radio']:after {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	top: -1px;
+	left: -1px;
+	position: relative;
+	background-color: #1d00a0;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+}
+
+input[type='radio']:checked:after {
+	width: 12px;
+	height: 12px;
+	border-radius: 15px;
+	top: -3px;
+	left: -3px;
+	position: relative;
+	background-color: #dce000;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 4px solid rgb(0, 0, 0);
+}
+
+
+/* radio button concepts from https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons*/
